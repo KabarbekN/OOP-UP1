@@ -6,7 +6,7 @@ public class AssignmentOne {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner sc  = new Scanner(System.in);
         System.out.println("Which text file ypu want to parse?");
-        System.out.println("Write the path to this file");
+        System.out.println("Write the path to this file, like src/fille1.txt or src/file2.txt");
         String fileName = sc.nextLine();
         File file = new File(fileName);
         Scanner scan = new Scanner(file);
