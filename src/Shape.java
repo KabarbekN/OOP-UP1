@@ -20,6 +20,9 @@ public class Shape {
         }
         points = pointers;
     }
+    public String getPoints(){
+        return Arrays.toString(points);
+    }
     public double calculatePerimeter(){
         double perimeter = 0;
         for (int i = 0; i < counter -1; i++){
